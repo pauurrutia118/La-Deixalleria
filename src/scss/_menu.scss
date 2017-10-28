@@ -1,0 +1,60 @@
+nav {
+  .hamburguesa {
+    margin: 1.5rem 0 0 1rem;
+  }
+
+  .hamburguesaAnimada {
+    svg {
+      animation: giroInverso 0.7s;
+    }
+  }
+
+  #menuDesplegable {
+    display: none;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 0;
+    background-color:$pureBlack;
+    color: $totalWhite;
+    z-index: 100;
+    @media only screen and (min-width : 780px){
+    right: 50%;
+    box-shadow: 0 4px 8px black;
+    }
+    .botonCerrar {
+      margin: 1.5rem 0 0 -1rem;
+      svg {
+        animation: giro 0.7s;
+      }
+    }
+    li {
+      list-style: none;
+      font-family: 'Bebas Neue';
+      font-size: 2rem;
+      margin: 4rem 0 0 3rem;
+      padding-bottom: 1rem;
+      border-bottom: .25rem solid $totalWhite;
+    }
+    li:hover {
+      color: $strongYellow;
+      border-bottom: .25rem solid $strongYellow;
+    }
+    img {
+      height: 60px;
+      margin: 5rem 0 0 3rem;
+    }
+  }
+}
+
+@keyframes giro {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(180deg)}
+}
+
+@keyframes giroInverso {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(-180deg)}
+}

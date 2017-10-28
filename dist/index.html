@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Deixalleria</title>
+    <link rel="stylesheet" href="css/index.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div id='burguer' class='hamburguesa' onclick='desplegarMenu()'>
+        <svg width="50" height="50">
+          <line x1="7" y1="15" x2="43" y2="15" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <line x1="7" y1="25" x2="43" y2="25" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <line x1="7" y1="35" x2="43" y2="35" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <rect width="50" height="50" style="fill:none;stroke-width:7;stroke:rgb(28,28,27)" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+      </div>
+
+      <ul id='menuDesplegable'>
+        <div class='botonCerrar' onclick='OcultarMenu()'>
+          <svg width="50" height="50">
+            <line x1="10" y1="10" x2="40" y2="40" style="stroke:rgb(251,251,247);stroke-width:4" />
+            <line x1="40" y1="10" x2="10" y2="40" style="stroke:rgb(251,251,247);stroke-width:4" />
+            <rect width="50" height="50" style="fill:none;stroke-width:7;stroke:rgb(251,251,247)" />
+          </svg>
+        </div>
+        <a href='index.html'><li>Inicio</li></a>
+        <a href='trabajos.html'><li>Trabajos</li></a>
+        <a href='quienessomos.html'><li>¿Quién hay ahí?</li></a>
+        <a href='contacto.html'><li>Contáctanos</li></a>
+        <img onmouseover="this.src='src/images/behance-hover.svg'" onmouseout="this.src='src/images/behance-logo.svg'" src='src/images/behance-logo.svg'>
+        <img onmouseover="this.src='src/images/scribd-hover.svg'" onmouseout="this.src='src/images/logo-scribd.svg'" src='src/images/logo-scribd.svg'>
+        <img onmouseover="this.src='src/images/instagram-hover.svg'" onmouseout="this.src='src/images/instagram-logo.svg'" src='src/images/instagram-logo.svg'>
+      </ul>
+    </nav>
+
+    <div id='fondoOscuro'>
+    </div>
+
+    <div class='fotoPortada'>
+      <img src='src/images/logo.svg'>
+      <div id='flecha' class='flechaScroll'>
+        <img src='src/images/flechaScroll.svg'>
+      </div>
+    </div>
+
+    <div class='historia1'>
+      <h2>Esto <span class='textoMarcado'>no</span> es un <br>fanzine</h2>
+      <p>Todos tenemos <strong>ideas</strong> en un cajón, nos ilusionan pero no tenemos el <strong>tiempo</strong> o los <strong>medios</strong> para liberarlas. <strong>HASTA AHORA.</strong>
+      La Deixalleria es el lugar donde todas esas ideas cobran vida y se convierten en <strong>proyectos reales. </strong></p>
+    </div>
+
+    <div class='explicacion'>
+      <h2>Aquí es donde <br> nace el <span class='textoMarcado'>arte</span></h2>
+        <div class='flexExplicacion'>
+          <div class='explicacion1'>
+            <img src='src/images/iconoBombilla.svg'>
+            <img src='src/images/lineaAmarilla.svg'>
+            <p><strong>¿Escribes</strong> grandes historias pero necesitas a alguien que las ilustre? ¿<strong>Dibujas</strong> como Frank Miller pero los guiones se te resisten?
+            Encontraremos a tu media naranja… artísticamente hablando, claro.</p>
+          </div>
+          <div class='explicacion2'>
+            <img src='src/images/iconoClip.svg'>
+            <img src='src/images/lineaAmarilla.svg'>
+            <p>La deixalleria pone en <strong>contacto</strong> a <strong>profesionales</strong> de distintos ámbitos del mundo del arte para que puedan llevar a cabo sus proyectos, individuales o en equipo, da igual si son pequeñas ideas o faraónicas. La Deixalleria es <strong>TU</strong> sitio.</p>
+          </div>
+          <div class='explicacion3'>
+            <img src='src/images/iconoLibro.svg'>
+            <img src='src/images/lineaAmarilla.svg'>
+            <p>Cuando tenemos suficientes trabajos acabados los convertimos en un jugoso álbum <strong>recopilatorio</strong> en formato <strong>físico</strong>, La Deixalleria 1: de prosa a poesía, ya está en camino!</p>
+          </div>
+        </div>
+    </div>
+
+    <div class='enlaceTrabajos'>
+      <h2>¿A qué esperas?<br>¡Echa un <span class='textoMarcado'>vistazo!</span></h2>
+      <a href='trabajos.html'><button class='callToAction'>Trabajos</button></a>
+    </div>
+
+    <div class='containerCita'>
+      <img src='src/images/fotoVictorCita.jpg'>
+      <div class='citaVictor'>
+        <img src='src/images/iconoComillas.svg'>
+        <h3>Poesía, prosa, ilustración,<br>cómic, fotografía…<br>En La Deixalleria cabe <span class='textoMarcado'>todo</span><br>y <span class='textoMarcado'>todo</span> es posible.</h3>
+        <div class='firmaCita'>
+          <img src='src/images/lineaCita.svg'>
+          <p><strong>Víctor Marín,</strong> La Deixalleria.</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <footer>
+    <script type="text/javascript" src="js/index.js"></script>
+  </footer>
+</html>

@@ -1,0 +1,165 @@
+.fotoPortada {
+  background-color: $strongYellow;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+  z-index: -10;
+  img {
+    margin-top: 5rem;
+    width: 400px;
+    height: 400px;
+    @media only screen and (min-width : 780px){
+    width: 450px;
+    height: inherit;
+    margin-top: -4.5rem;
+    }
+  }
+  .flechaScroll {
+    img {
+      margin-top: 0;
+      width: 50px;
+      animation: flecha 1s infinite;
+    }
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+.historia1 {
+  margin-top: 49rem;
+  p {
+    @media only screen and (min-width : 780px){
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+    @media only screen and (min-width : 1024px){
+    margin-left: 30%;
+    margin-right: 30%;
+    }
+  }
+}
+
+.textoMarcado {
+  color: $strongYellow;
+  background-color: black;
+  padding: 6px 3px 0 3px;
+}
+
+.explicacion {
+  margin-top: 6rem;
+
+  h2 {
+    margin-bottom: 3rem;
+    display: block;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  p {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .flexExplicacion {
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width : 780px){
+    flex-direction: row;
+    flex-flow: wrap;
+    }
+    .explicacion1 {
+      margin: 0 auto;
+      width: 23rem;
+    }
+    .explicacion2 {
+      margin: 0 auto;
+      width: 23rem;
+      @media only screen and (min-width : 780px){
+      margin-top: 2rem;
+      }
+    }
+    .explicacion3 {
+      margin: 0 auto;
+      width: 23rem;
+    }
+  }
+}
+
+.enlaceTrabajos {
+  margin-top: 2rem;
+  text-align: center;
+  @media only screen and (min-width : 780px){
+  margin-top: 2rem;
+  }
+
+  button {
+    margin-top: 3rem;
+  }
+}
+
+.containerCita {
+  margin-top: 7rem;
+  img {
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    @media only screen and (min-width : 780px){
+    width: 378px;
+    z-index: 50;
+    }
+  }
+  .citaVictor {
+    background-color: $strongYellow;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 25rem;
+    width: 100%;
+    height: 375px;
+    @media only screen and (min-width : 780px){
+    width: 100%;
+    height: 391px;
+    margin-top: 0;
+    }
+    h3 {
+      margin: 8rem 1rem 0 1rem;
+      @media only screen and (min-width : 780px){
+      margin-left: 50%;
+      }
+    }
+    img {
+      width: 68px;
+      margin: auto;
+      margin-top: 2rem;
+      @media only screen and (min-width : 780px){
+      margin-left: 65%;
+      }
+    }
+    .firmaCita {
+      text-align: right;
+      img {
+        position: static;
+      }
+      p {
+        display: inline;
+        margin-right: 2rem;
+        margin-top: 0;
+        margin-left: .3rem;
+      }
+    }
+  }
+}
+
+@keyframes flecha {
+  0% {transform: translateY(10px);}
+  50% {transform: translateY(20px);}
+  100% {transform: translateY(10px);}
+}
