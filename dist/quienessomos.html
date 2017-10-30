@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Deixalleria</title>
+    <link rel="stylesheet" href="css/index.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div id='burguer' class='hamburguesa' onclick='desplegarMenu()'>
+        <svg width="50" height="50">
+          <line x1="7" y1="15" x2="43" y2="15" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <line x1="7" y1="25" x2="43" y2="25" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <line x1="7" y1="35" x2="43" y2="35" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <rect width="50" height="50" style="fill:none;stroke-width:7;stroke:rgb(28,28,27)" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+      </div>
+
+      <ul id='menuDesplegable'>
+        <div class='botonCerrar' onclick='OcultarMenu()'>
+          <svg width="50" height="50">
+            <line x1="10" y1="10" x2="40" y2="40" style="stroke:rgb(251,251,247);stroke-width:4" />
+            <line x1="40" y1="10" x2="10" y2="40" style="stroke:rgb(251,251,247);stroke-width:4" />
+            <rect width="50" height="50" style="fill:none;stroke-width:7;stroke:rgb(251,251,247)" />
+          </svg>
+        </div>
+        <a href='index.html'><li>Inicio</li></a>
+        <a href='trabajos.html'><li>Trabajos</li></a>
+        <a href='quienessomos.html'><li>¿Quién hay ahí?</li></a>
+        <a href='contacto.html'><li>Contáctanos</li></a>
+        <img onmouseover="this.src='src/images/behance-hover.svg'" onmouseout="this.src='src/images/behance-logo.svg'" src='src/images/behance-logo.svg'>
+        <img onmouseover="this.src='src/images/scribd-hover.svg'" onmouseout="this.src='src/images/logo-scribd.svg'" src='src/images/logo-scribd.svg'>
+        <img onmouseover="this.src='src/images/instagram-hover.svg'" onmouseout="this.src='src/images/instagram-logo.svg'" src='src/images/instagram-logo.svg'>
+      </ul>
+    </nav>
+
+    <div class='fondoQuienesSomos'>
+      <h1><span class='textoMarcado'>¿Quién hay ahí?</span></h1>
+      <svg viewBox="0 0 320 504" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+          <desc>Created with Sketch.</desc>
+          <defs></defs>
+          <polygon id="Polygon" stroke="none" fill="#F1C921" fill-rule="evenodd" transform="translate(160.000000, 252.000000) scale(1, -1) translate(-160.000000, -252.000000) " points="160 0 320 96 320 504 0 504 0 96"></polygon>
+      </svg>
+    </div>
+
+    <p>
+      La Deixalleria no seria nada sin el <strong>equipo</strong> creativo que hay detrás. Está compuesto por <strong>profesionales</strong> de la <strong>ilustración, la poesía, la literatura, el cómic y la fotografía</strong> entre muchos otros. Sin estos <strong>artistas</strong>, truhanes y gente sin honor La Deixalleria no <strong>existiría</strong>. A continuación se presenta a cada uno de estos caraduras que dirigen, <strong>colaboran</strong> o asisten de cualquier forma en la <strong>creación</strong> y <strong>desarrollo</strong> de este proyecto. Podéis husmear en sus vidas, conocer sus pensamientos y agitar vuestras mentes con sus obras. <strong>¡Adelante!</strong>
+    </p>
+
+  </body>
+
+  <footer>
+    <script type="text/javascript" src="js/index.js"></script>
+  </footer>
+</html>
