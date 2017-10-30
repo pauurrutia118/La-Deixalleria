@@ -31,15 +31,15 @@ h2 {
 }
 
 .historia1 {
-  margin-top: 49rem;
+  margin-top: 105vh;
   p {
     @media only screen and (min-width : 780px){
     margin-left: 25%;
     margin-right: 25%;
     }
     @media only screen and (min-width : 1024px){
-    margin-left: 30%;
-    margin-right: 30%;
+    margin: 0 auto;
+    max-width: 33rem;
     }
   }
 }
@@ -52,6 +52,12 @@ h2 {
 
 .explicacion {
   margin-top: 6rem;
+  @media only screen and (min-width : 780px){
+  margin-top:10rem;
+  }
+  @media only screen and (min-width : 1024px){
+  margin-top: 14rem;
+  }
 
   h2 {
     margin-bottom: 3rem;
@@ -96,7 +102,10 @@ h2 {
   margin-top: 2rem;
   text-align: center;
   @media only screen and (min-width : 780px){
-  margin-top: 2rem;
+  margin-top:7rem;
+  }
+  @media only screen and (min-width : 1024px){
+  margin-top: 10rem;
   }
 
   button {
@@ -106,6 +115,12 @@ h2 {
 
 .containerCita {
   margin-top: 7rem;
+  @media only screen and (min-width : 780px){
+  margin-top:10rem;
+  }
+  @media only screen and (min-width : 1024px){
+  margin-top: 14rem;
+  }
   img {
     left: 0;
     right: 0;
@@ -114,6 +129,9 @@ h2 {
     @media only screen and (min-width : 780px){
     width: 378px;
     z-index: 50;
+    }
+    @media only screen and (min-width : 1024px){
+    width: 475px;
     }
   }
   .citaVictor {
@@ -129,10 +147,16 @@ h2 {
     height: 391px;
     margin-top: 0;
     }
+    @media only screen and (min-width : 1024px){
+    height: 491px;
+    }
     h3 {
       margin: 8rem 1rem 0 1rem;
       @media only screen and (min-width : 780px){
       margin-left: 50%;
+      }
+      @media only screen and (min-width : 1024px){
+      margin-top: 12rem;
       }
     }
     img {
@@ -141,6 +165,9 @@ h2 {
       margin-top: 2rem;
       @media only screen and (min-width : 780px){
       margin-left: 65%;
+      }
+      @media only screen and (min-width : 1024px){
+      margin-top: 5rem;
       }
     }
     .firmaCita {

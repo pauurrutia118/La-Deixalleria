@@ -24,6 +24,12 @@ nav {
     right: 50%;
     box-shadow: 0 4px 8px black;
     }
+    @media only screen and (min-width : 1024px){
+    right: 60%;
+    }
+    @media only screen and (min-width : 1220px){
+    right: 70%;
+    }
     .botonCerrar {
       margin: 1.5rem 0 0 -1rem;
       svg {
