@@ -9,53 +9,63 @@ a {
 }
 
 h1 {
-  font-family: 'Bebas Neue';
+  font-family: 'bebas_neueregular',sans-serif;
   font-size:2.75rem;
   line-height: 3.3rem;
   @media only screen and (min-width : 780px){
   font-size:3rem;
+  line-height: 3.62rem;
   }
   @media only screen and (min-width : 1024px){
   font-size:4rem;
+  line-height: 4.8rem;
   }
 }
 
 h2 {
-  font-family: 'Bebas Neue';
+  font-family: 'bebas_neueregular', sans-serif;
   font-size: 2.5rem;
+  line-height: 3rem;
   @media only screen and (min-width : 780px){
   font-size:2.75rem;
+  line-height: 3.3rem;
   }
   @media only screen and (min-width : 1024px){
   font-size:3.5rem;
+  line-height: 4.2rem;
   }
 }
 
 h3 {
-  font-family: 'Bebas Neue';
+  font-family: 'bebas_neueregular', sans-serif;
   font-size: 2.25rem;
-  line-height: 2.75rem;
+  line-height: 2.68rem;
   @media only screen and (min-width : 780px){
   font-size:2.5rem;
+  line-height: 3rem;
   }
   @media only screen and (min-width : 1024px){
   font-size:3rem;
+  line-height: 3.6rem;
   }
 }
 
 h4 {
-  font-family: 'Bebas Neue';
+  font-family: 'bebas_neueregular',sans-serif;
   font-size: 2rem;
+  line-height: 2.37rem;
   @media only screen and (min-width : 780px){
   font-size:2.25rem;
+  line-height: 2.7rem;
   }
   @media only screen and (min-width : 1024px){
   font-size:2.5rem;
+  line-height: 3rem;
   }
 }
 
 p {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   margin-left: .7rem;
