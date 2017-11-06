@@ -40,19 +40,25 @@
       </ul>
     </nav>
 
+    <div id='fondoOscuro'>
+    </div>
+
     <div class='fondoQuienesSomos'>
       <h1><span class='textoMarcado'>¿Quién hay ahí?</span></h1>
-      <svg viewBox="122 376 66 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg width="320px" height="512px" viewBox="0 0 320 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
           <desc>Created with Sketch.</desc>
           <defs></defs>
-          <path d="M162.303125,487 C161.703125,484.4 161.503125,481.8 161.503125,479.2 C161.503125,453.6 187.503125,448 187.503125,411.6 C187.503125,389.2 176.503125,376.4 155.103125,376.4 C133.703125,376.4 122.703125,389.2 122.703125,411.6 L122.703125,425.4 L143.503125,425.4 L143.503125,410.2 C143.503125,400.2 147.503125,396.4 154.503125,396.4 C161.503125,396.4 165.503125,400.2 165.503125,410.2 C165.503125,445 141.503125,447.8 141.503125,478.4 C141.503125,482 141.903125,484.6 142.703125,487 L162.303125,487 Z M141.703125,496.8 L141.703125,518 L162.903125,518 L162.903125,496.8 L141.703125,496.8 Z" id="?" stroke="none" fill="#F1C921" fill-rule="evenodd"></path>
+          <g id="fondo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <polygon id="Polygon" fill="#F1C921" transform="translate(160.000000, 194.500000) scale(1, -1) translate(-160.000000, -194.500000) " points="160 0 320 0 320 389 0 389 0 0"></polygon>
+              <path d="M162.303125,481 C161.703125,478.4 161.503125,475.8 161.503125,473.2 C161.503125,447.6 187.503125,442 187.503125,405.6 C187.503125,383.2 176.503125,370.4 155.103125,370.4 C133.703125,370.4 122.703125,383.2 122.703125,405.6 L122.703125,419.4 L143.503125,419.4 L143.503125,404.2 C143.503125,394.2 147.503125,390.4 154.503125,390.4 C161.503125,390.4 165.503125,394.2 165.503125,404.2 C165.503125,439 141.503125,441.8 141.503125,472.4 C141.503125,476 141.903125,478.6 142.703125,481 L162.303125,481 Z M141.703125,490.8 L141.703125,512 L162.903125,512 L162.903125,490.8 L141.703125,490.8 Z" id="?" fill="#F1C921"></path>
+          </g>
       </svg>
     </div>
 
     <div class='inicioQuienesSomos'>
       <p>
-        La Deixalleria no seria nada sin el <strong>equipo</strong> creativo que hay detrás. Está compuesto por <strong>profesionales</strong> de la <strong>ilustración, la poesía, la literatura, el cómic y la fotografía</strong> entre muchos otros. Sin estos <strong>artistas</strong>, truhanes y gente sin honor La Deixalleria no <strong>existiría</strong>. A continuación se presenta a cada uno de estos caraduras que dirigen, <strong>colaboran</strong> o asisten de cualquier forma en la <strong>creación</strong> y <strong>desarrollo</strong> de este proyecto. Podéis husmear en sus vidas, conocer sus pensamientos y agitar vuestras mentes con sus obras. <strong>¡Adelante!</strong>
+        La Deixalleria no seria nada sin el equipo creativo que hay detrás. Está compuesto por profesionales de la ilustración, la poesía, la literatura, el cómic y la fotografía entre muchos otros. Sin estos artistas, truhanes y gente sin honor La Deixalleria no existiría. A continuación se presenta a cada uno de estos caraduras que dirigen, colaboran o asisten de cualquier forma en la creación y desarrollo</strong> de este proyecto. Podéis husmear en sus vidas, conocer sus pensamientos y agitar vuestras mentes con sus obras.¡Adelante!
       </p>
     </div>
 
@@ -61,22 +67,58 @@
         <h4>victor marín</h4>
         <p>Cómic / Ilustración / Poesía</p>
         <img src='src/images/quienesSomos/fotoVictorFicha.png'>
-        <a href='#' class='button hvr-bubble-float-top'>Ver más</a>
+        <a href='#' id='botonPersona1' onmouseover="CambiarTexto1()" onmouseout='IgualarTexto1()' class='button hvr-bubble-float-top'>Ver más</a>
       </div>
 
       <div class='colaborador'>
         <h4>pau urrutia</h4>
         <p>Cómic / Ilustración / Diseño</p>
-        <img src='src/images/quienesSomos/fotoVictorFicha.png'>
-        <a href='#' class='button hvr-bubble-float-top'>Ver más</a>
+        <img src='src/images/quienesSomos/fotoPauFicha.png'>
+        <a href='#' id='botonPersona2' onmouseover="CambiarTexto2()" onmouseout='IgualarTexto2()' class='button hvr-bubble-float-top'>Ver más</a>
       </div>
 
       <div class='colaborador'>
         <h4>adrián febrero</h4>
         <p>Cómic / Ilustración / 3D</p>
         <img src='src/images/quienesSomos/fotoVictorFicha.png'>
-        <a href='#' class='button hvr-bubble-float-top'>Ver más</a>
+        <a href='#' id='botonPersona3' onmouseover="CambiarTexto3()" onmouseout='IgualarTexto3()' class='button hvr-bubble-float-top'>Ver más</a>
       </div>
+
+      <div class='colaborador'>
+        <h4>adrián lópez</h4>
+        <p>Guión / Poesía / Prosa</p>
+        <img src='src/images/quienesSomos/fotoVictorFicha.png'>
+        <a href='#' id='botonPersona4' onmouseover="CambiarTexto4()" onmouseout='IgualarTexto4()' class='button hvr-bubble-float-top'>Ver más</a>
+      </div>
+
+      <div class='colaborador'>
+        <h4>aleix soler</h4>
+        <p>Diseño / Lettering</p>
+        <img src='src/images/quienesSomos/fotoVictorFicha.png'>
+        <a href='#' id='botonPersona5' onmouseover="CambiarTexto5()" onmouseout='IgualarTexto5()' class='button hvr-bubble-float-top'>Ver más</a>
+      </div>
+
+      <div class='colaborador'>
+        <h4>santi bosch</h4>
+        <p>Cómic / Ilustración / 3D</p>
+        <img src='src/images/quienesSomos/fotoVictorFicha.png'>
+        <a href='#' id='botonPersona6' onmouseover="CambiarTexto6()" onmouseout='IgualarTexto6()' class='button hvr-bubble-float-top'>Ver más</a>
+      </div>
+    </div>
+
+    <div class='enlaceContacto'>
+      <h2>¿Quieres <span class='textoMarcado'>unirte</span><br> al <span class='textoMarcado'>equipo?</span></h2>
+      <svg viewBox="0 0 320 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+          <desc>Created with Sketch.</desc>
+          <defs></defs>
+          <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <rect id="Rectangle-3" fill="#F1C921" x="0" y="0" width="320" height="274"></rect>
+              <polygon id="Triangle" fill="#F1C921" transform="translate(161.000000, 285.500000) scale(1, -1) translate(-161.000000, -285.500000) " points="161 265 195 306 127 306"></polygon>
+          </g>
+      </svg>
+      <p>¡La Deixalleria te necesita! Si eres un joven artista con talento y quieres formar parte del equipo, rellena nuestro formulario de contacto y cuéntanoslo; estamos deseando ver tu trabajo.</p>
+      <a href='contacto.html'><button class='callToAction'>Contacto</button></a>
     </div>
 
   </body>
