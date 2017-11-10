@@ -1,0 +1,50 @@
+.fondoContacto {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 433px;
+  width: 100%;
+  position: absolute;
+  background-color: $strongYellow;
+  z-index: -1;
+    h1 {
+      text-align: center;
+      margin-top: 13rem;
+    }
+    svg {
+      height: 600px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: -5;
+      display: block;
+    }
+}
+
+.inicioContacto {
+  margin-top: 550px;
+  @media only screen and (min-width : 780px){
+  margin-left: 20%;
+  margin-right: 20%;
+  }
+  @media only screen and (min-width : 1024px){
+  margin: 550px auto 0 auto;
+  max-width: 33rem;
+  }
+  .enlaceDestacado {
+    color: black;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+  }
+
+  .enlaceDestacado:hover {
+    border-bottom: 3px solid $strongYellow;
+  }
+}
+
+.formularioContacto {
+  margin-top: 6rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Deixalleria</title>
+    <link rel="stylesheet" href="css/index.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/webfontkit-bebas/stylesheet.css" type="text/css" charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div id='burguer' class='hamburguesa' onclick='desplegarMenu()'>
+        <svg width="50" height="50">
+          <line x1="7" y1="15" x2="43" y2="15" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <line x1="7" y1="25" x2="43" y2="25" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <line x1="7" y1="35" x2="43" y2="35" style="stroke:rgb(28,28,27);stroke-width:4" />
+          <rect width="50" height="50" style="fill:none;stroke-width:7;stroke:rgb(28,28,27)" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+      </div>
+
+      <ul id='menuDesplegable'>
+        <div class='botonCerrar' onclick='OcultarMenu()'>
+          <svg width="50" height="50">
+            <line x1="10" y1="10" x2="40" y2="40" style="stroke:rgb(251,251,247);stroke-width:4" />
+            <line x1="40" y1="10" x2="10" y2="40" style="stroke:rgb(251,251,247);stroke-width:4" />
+            <rect width="50" height="50" style="fill:none;stroke-width:7;stroke:rgb(251,251,247)" />
+          </svg>
+        </div>
+        <a href='index.html'><li>Inicio</li></a>
+        <a href='trabajos.html'><li>Trabajos</li></a>
+        <a href='quienessomos.html'><li>¿Quién hay ahí?</li></a>
+        <a href='contacto.html'><li>Contáctanos</li></a>
+        <img onmouseover="this.src='src/images/behance-hover.svg'" onmouseout="this.src='src/images/behance-logo.svg'" src='src/images/behance-logo.svg'>
+        <img onmouseover="this.src='src/images/scribd-hover.svg'" onmouseout="this.src='src/images/logo-scribd.svg'" src='src/images/logo-scribd.svg'>
+        <img onmouseover="this.src='src/images/instagram-hover.svg'" onmouseout="this.src='src/images/instagram-logo.svg'" src='src/images/instagram-logo.svg'>
+      </ul>
+    </nav>
+
+    <div id='fondoOscuro'>
+    </div>
+
+    <div class='fondoContacto'>
+      <h1><span class='textoMarcado'>Contáctanos</span></h1>
+      <svg width="320px" height="522px" viewBox="0 0 320 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+          <desc>Created with Sketch.</desc>
+          <defs></defs>
+          <g id="Group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <polygon id="Polygon-Copy" fill="#F1C921" transform="translate(160.000000, 194.500000) scale(1, -1) translate(-160.000000, -194.500000) " points="160 0 320 0 320 389 0 389 0 0"></polygon>
+              <g id="direction" transform="translate(156.500000, 454.500000) rotate(90.000000) translate(-156.500000, -454.500000) translate(89.000000, 414.000000)" fill="#F1C921">
+                  <g id="Capa_1">
+                      <g id="Group">
+                          <path d="M126.350202,22.461868 L68.5798606,22.461868 L79.5459164,13.7775443 C82.8828432,11.1354461 83.4510592,6.28106455 80.8163484,2.93571773 C78.1816376,-0.410097299 73.3403624,-0.980842964 70.0048362,1.66172351 C70.0048362,1.66172351 50.9464878,17.4351859 41.8601672,23.9498333 C35.725115,28.3486484 30,33.7630067 30,41.7866888 L30,60.2982322 C30,71.5712784 39.1456167,80.7430067 50.3871429,80.7430067 L86.7067456,80.7430067 C90.9583275,80.7430067 94.4045087,77.2866946 94.4045087,73.0236599 C94.4045087,70.2485906 92.9393798,67.8228044 90.7472892,66.4621917 L93.2494007,66.4621917 C97.5005157,66.4621917 100.947164,63.0058796 100.947164,58.7428449 C100.947164,55.9677755 99.4820348,53.5419894 97.2899443,52.1813767 L99.0221394,52.1813767 C103.273254,52.1813767 106.719902,48.7250646 106.719902,44.4620299 C106.719902,41.6869605 105.254774,39.2611744 103.06315,37.9005617 L126.349268,37.9005617 C130.600383,37.9005617 134.047031,34.4442495 134.047031,30.1812148 C134.047031,25.9181802 130.601784,22.461868 126.350202,22.461868 Z" id="Shape"></path>
+                          <path d="M17.6884669,25 L4.3337561,25 C1.94043206,25 0,26.9458728 0,29.3459075 L0,76.2542717 C0,78.6543064 1.94043206,80.6001792 4.3337561,80.6001792 L17.6884669,80.6001792 C20.0817909,80.6001792 22.022223,78.6543064 22.022223,76.2542717 L22.022223,29.3459075 C22.022223,26.9454046 20.0817909,25 17.6884669,25 Z" id="Shape"></path>
+                      </g>
+                  </g>
+              </g>
+          </g>
+      </svg>
+    </div>
+
+    <div class='inicioContacto'>
+      <p>
+        Bueno, a estas alturas ya habrás <span class='bold'>cotilleado</span> sobre los <a class='enlaceDestacado' href='quienessomos.html'>diferentes artistas</a> de La Deixalleria y te habrás deleitado con sus <a class='enlaceDestacado' href='trabajos.html'>increíbles trabajos</a>. Puede ser que ahora mismo te estés preguntando cómo ponerte en <span class='bold'>contacto</span> con uno o varios de estos profesionales; puede que quieras <span class='bold'>incorporarlo</span> a tu equipo creativo, puede que sus trabajos encajen en una <span class='bold'>exposición</span> que estás preparando, o tal vez eres un joven artista y tienes mil <span class='bold'>dudas</span> sobre este proyecto y como participar en él. Preguntas, dudas, sugerencias, críticas constructivas (y destructivas), ánimos… Este es el lugar para que nos <span class='bold'>comuniques</span> todo lo que te inquieta.
+      </p>
+    </div>
+
+    <div class='formularioContacto'>
+      <form>
+        <label for='Nombre'>Nombre y apellidos:</label>
+        <input type="text" name="nombre" id="nombre" required="">
+        <label for='E-mail'>Correo electrónico:</label>
+        <input type="text" name="e-mail" id="e-mail" required="">
+        <label for='Asunto'>Asunto:</label>
+        <input type="text" name="asunto" id="asunto" required="">
+        <label for='Mensaje'>Mensaje:</label>
+        <textarea rows="10" id='mensaje' colls="50"></textarea>
+      </form>
+    </div>
+
+
+  <footer>
+    <script type="text/javascript" src="js/index.js"></script>
+  </footer>
+</html>

@@ -36,9 +36,16 @@ nav {
         animation: giro 0.7s;
       }
     }
+    a {
+      color: $totalWhite;
+    }
     li {
+      @media only screen and (max-width : 780px){
+      font-size: 2rem;
+      margin: 2rem 0 0 3rem;
+      }
       list-style: none;
-      font-family: 'Bebas Neue';
+      font-family: 'bebas_neueregular',sans-serif;
       font-size: 2rem;
       margin: 4rem 0 0 3rem;
       padding-bottom: 1rem;
