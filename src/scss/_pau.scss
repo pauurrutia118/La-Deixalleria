@@ -1,0 +1,40 @@
+.fondoPau {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -5;
+  right: 0;
+
+  .fotoPau {
+    position: absolute;
+    margin-bottom: 0;
+    right: 0;
+    bottom: 0;
+    img {
+    height: 350px;
+    }
+  }
+  .iconosSociales {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: -65%;
+    margin-left: 2rem;
+    position: absolute;
+    img {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.nombreIndividuo {
+  margin-top: 110%;
+  position: relative;
+  text-align: center;
+}
+
+.entrada {
+  margin-top: 3rem;
+  text-align: center;
+}

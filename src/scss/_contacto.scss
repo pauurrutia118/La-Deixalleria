@@ -48,6 +48,17 @@
   margin-top: 6rem;
   margin-left: 1rem;
   margin-bottom: 10rem;
+  @media only screen and (min-width : 780px){
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 8rem;
+  }
+  @media only screen and (min-width : 1024px){
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+  }
   h2 {
     margin-bottom: 6rem;
   }
