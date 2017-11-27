@@ -20,7 +20,7 @@ nav {
     background-color:$pureBlack;
     color: $totalWhite;
     z-index: 100;
-    @media only screen and (min-width : 780px){
+    @media only screen and (min-width : 760px){
     right: 50%;
     box-shadow: 0 4px 8px black;
     }
@@ -40,7 +40,7 @@ nav {
       color: $totalWhite;
     }
     li {
-      @media only screen and (max-width : 780px){
+      @media only screen and (max-width : 760px){
       font-size: 2rem;
       margin: 2rem 0 0 3rem;
       }
@@ -57,7 +57,10 @@ nav {
     }
     img {
       height: 60px;
+      margin: 3rem 0 0 2rem;
+      @media only screen and (min-width : 760px){
       margin: 5rem 0 0 3rem;
+      }
     }
   }
 }
